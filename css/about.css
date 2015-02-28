@@ -1,0 +1,25 @@
+#content .about div#photo {
+  float: left;
+  width: 206px;
+  height: 240px;
+}
+
+#content .about {
+  overflow: hidden;
+}
+
+#content .about #description {
+  display: block;
+  padding: 20px;
+  margin:0 0 0 206px;
+}
+
+#content .about #description ul {
+  list-style: none;
+  margin: 20px 0;
+}
+
+#content .about #description a {
+  text-decoration: none;
+  color: #b9c849; 
+}

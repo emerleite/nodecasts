@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>NodeJS Screencasts - By Emerson Macedo</title>
+  <meta name="keywords" content="nodejs, screencast, node, javascript, js" />
+  <meta name="description" content="NodeJS Screencasts. Every content is free." />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="css/main.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="css/index.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+  <div id="main">
+    <div id="header">
+			<div id="logo">
+				<h1><a href="http://nodecasts.org">NodeCasts</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="current_page_item"><a href="http://nodecasts.org">HOME</a></li>
+					<li><a href="http://nodecasts.org/about.html">ABOUT</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="content">
+		  <div class="episode">
+		    <h2><a name="episode-2">Episode 2 - PubSub with Faye (High Definition - 720p)</a></h2>
+		    <p>In this episode, I'll show how to create a pubsub gateway using the cool library named Faye. We'll also use npm (Node Package Manager) and express (http://expressjs.org). Both will have a separeted screencast to get deep inside. Source code is avaliable at <a href="http://github.com/nodecasts/episode2">http://github.com/nodecasts/episode2</a></p>
+		    <div id="video-episode2">
+		      <object width="960" height="565"><param name="movie" value="http://www.youtube.com/v/WHtwsH1DUnc?fs=1&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/WHtwsH1DUnc?fs=1&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="960" height="565"></embed></object>
+
+		    </div>
+		  </div>
+		  <div class="episode">
+		    <h2><a name="episode-1">Episode 1 - Basic Steps (High Definition - 720p)</a></h2>
+		    <p>In this episode, I'll show you the basic about NodeJS. We'll start with download, installation and interactive console. Then, we're going to learn about require, modules, load paths and finish with the process object, witch allows you to extract all running process information.</p>
+		    <div id="video-episode1">
+		      <object width="960" height="565"><param name="movie" value="http://www.youtube.com/v/7tUfDWRIMpw?fs=1&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/7tUfDWRIMpw?fs=1&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="960" height="565"></embed></object>
+
+		    </div>
+		  </div>
+		</div>
+		
+		<div id="footer">
+    	<p>Copyright (c) 2010 NodeCasts.org. All rights reserved.</p>
+    </div>
+  </div>
+  
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-18985877-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  
+  <script type="text/javascript">
+    var uservoiceOptions = {
+      key: 'nodecasts',
+      host: 'nodecasts.uservoice.com', 
+      forum: '80795',
+      alignment: 'left',
+      background_color:'#b7c74c', 
+      text_color: 'white',
+      hover_color: '#25282d',
+      lang: 'en',
+      showTab: true
+    };
+    function _loadUserVoice() {
+      var s = document.createElement('script');
+      s.src = ("https:" == document.location.protocol ? "https://" : "http://") + "uservoice.com/javascripts/widgets/tab.js";
+      document.getElementsByTagName('head')[0].appendChild(s);
+    }
+    _loadSuper = window.onload;
+    window.onload = (typeof window.onload != 'function') ? _loadUserVoice : function() { _loadSuper(); _loadUserVoice(); };
+  </script>
+</body>
+</html>

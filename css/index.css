@@ -1,0 +1,8 @@
+#content .episode p {
+  margin-bottom: 10px;
+}
+
+.episode p a {
+  text-decoration: none;
+  color: #b9c849;
+}
